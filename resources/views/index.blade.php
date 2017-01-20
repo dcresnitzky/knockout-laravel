@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="{{ asset("css/materialize.min.css") }}"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Style -->
     <link href="{{ asset("css/style.css") }}" rel="stylesheet">
@@ -28,7 +27,7 @@
                     <li>
                         <a class="switch " >
                             <span class="hide-on-med-and-down">Exibir indisponíveis</span>
-                        <!-- Switch -->
+                            <!-- Switch -->
                             <label>
                                 <input type="checkbox" checked  data-bind="click: $root.toggleExibeSemEstoque ">
                                 <span class="lever"></span>
